@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Mickeydev</title>
-</head>
-<body>
-    <h1>Welcome to the official webpage for mickeydev</h1>
-    <h2> Master Page Repository </h2>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h1>MICKEY</h1>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Project</a></li>
+      </ul>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <div class="gallery">
+      <div class="img-container">
+        <img
+          src="./img/preview/nature_1_preview.jpg"
+          alt="nature image 1"
+          data-original="nature_1_full.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="./img/preview/nature_2_preview.jpg"
+          alt="nature image 2"
+          data-original="nature_2_full.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="./img/preview/nature_3_preview.jpg"
+          alt="nature image 3"
+          data-original="nature_3_full.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="./img/preview/nature_4_preview.jpg"
+          alt="nature image 4"
+          data-original="nature_4_full.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="./img/preview/nature_5_preview.jpg"
+          alt="nature image 5"
+          data-original="nature_5_full.jpg"
+        />
+      </div>
+    </div>
+
+    <div class="modal">
+      <img src="" alt="" class="full-img">
+      <p class="caption"></p>
+    </div>
+
+    <script src="./script/App.js"></script>
+  </body>
 </html>
